@@ -7,17 +7,35 @@
     <title>Laboratorio1</title>
 </head>
 <body>
-    <header>Toyota Supra Mk4</header>
-    
-    <nav>
+    <header>
+        Toyota Supra Mk4
+       
+    </header>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    <nav id="myNav">
         <ul>
             <li><a href="#">Pagina1</a></li>
             <li><a href="#">Pagina2</a></li>
             <li><a href="#">Pagina3</a></li>
-    
         </ul>
-        </nav>
-    
+    </nav>
+
+    <div class="card" onclick="flipCard()">
+        <div class="front">
+            <img src="img/Fondo.jpg" alt="Imagen Frontal">
+            <h2>Información</h2>
+            <p>Descripción de la tarjeta.</p>
+        </div>
+        <div class="back">
+            <img src="img/Fondo1.jpg" alt="Imagen Trasera">
+        </div>
+    </div>
     <script src="./asses/Logica.js"></script>
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById("myNav");
+            nav.style.display = (nav.style.display === "block") ? "none" : "block";
+        }
+    </script>
 </body>
 </html>
