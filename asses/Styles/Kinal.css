@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */ /* Comenta o elimina esta línea para mostrar el contenido que se desborda */
 }
 
 .menu-bar {
@@ -49,4 +49,66 @@ body {
     66% {
         background-image: url('../img/Kinal6.jpg');
     }
+}
+
+.contenido {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.tarjeta:hover,
+.tarjeta.active {
+    background-color: #3498db; /* Cambia a tu color deseado al hacer clic o al pasar el ratón */
+    color: #fff; /* Cambia a tu color de texto deseado */
+}
+
+.login-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #2980b9;
+}
+#miBoton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo al pasar el ratón sobre el botón */
+#miBoton:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo al hacer clic en el botón */
+#miBoton:active {
+    background-color: #216a94;
 }

@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', function () {
         index = (index + 1) % images.length;
     }
 
-    setInterval(changeBackground, 4000);
+    setInterval(changeBackground, 8000.1);
 });
