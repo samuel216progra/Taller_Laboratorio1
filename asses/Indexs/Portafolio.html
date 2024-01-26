@@ -11,19 +11,16 @@
    
     <nav id="main-menu">
         <ul class="nav-bar">
-             <li class="nav-button-home"><a href="#"> Yo </a></li>
-             <li class="nav-button-services"><a href="#"> Proyectos </a></li>
-             <li class="nav-button-products"><a href="#"> Habilidades </a></li>
-             <li class="nav-button-products"><a href="#"> Multimedia </a></li>
-             <li class="nav-button-products"><a href="#"> Contacto </a></li>
+            
+             <li class="nav-button-home"><a href="#yo-"> Yo </a></li>
+             <li class="nav-button-services"><a href="#Proyectos-"> Proyectos </a></li>
+             <li class="nav-button-products"><a href="#Habilidades-"> Habilidades </a></li>
+             <li class="nav-button-products"><a href="#Multimedia-"> Multimedia </a></li>
+             <li class="nav-button-products"><a href="#Contacto-"> Contacto </a></li>
            <div class="menu-btn" onclick="toggleMenu()">☰</div>
           
         </ul>
-
-    
    </nav>
-
- 
    <nav id="myNav">
        <ul>
         <li><a href="../Indexs/index.html">Toyota Supra</a></li>
@@ -31,6 +28,100 @@
         <li><a href="../Indexs/Portafolio.html">Kinal</a></li>
        </ul>
    </nav>
+   <main class="sections">
+    <section id="yo-">
+        <h2>Samuel Adolfo Rodriguez Castro</h2>
+        <img src="../img/Programador.jpeg"><br>
+        <div>
+            <l>Soy un programador entusiasta que está constantemente buscando formas de mejorar
+                 mis habilidades y contribuir al mundo de la tecnología. Mi objetivo es ingresar a la
+                  Universidad de San Carlos de Guatemala para ampliar mis conocimientos y abrir nuevas 
+                  oportunidades en el campo de la programación.
+
+                Me caracterizo por mi dedicación y esfuerzo constante en cada proyecto en el que participo.
+                 Siempre estoy motivado para superarme a mí mismo y construir un futuro exitoso. Creo 
+                 firmemente en la importancia de la educación continua y la capacidad de adaptarse a las 
+                 últimas tendencias tecnológicas.</l>
+        </div>
+    </section>
+
+    <section id="Proyectos-">
+        <h2>Proyectos</h2>
+        <div class="proyecto-card">
+            <img src="../img/P1login.png" alt="Proyecto 1">
+            <div class="proyecto-info">
+                <h3>Login</h3>
+                <p> Este es un login conectado con una base de datos , funcional donde verifica que el usuario y la 
+                    contraseña sean correctos para poder ingresar , si alguna de las dos no coinciden no lo dejara entrar 
+                .
+                </p>
+            </div>
+        </div>
+        <div class="proyecto-card">
+            <img src="../img/P2Tonis.png" alt="Proyecto 2">
+            <div class="proyecto-info">
+                <h3>Tony's Kinal</h3>
+                <p>Es un aplicativo donde se gestionan eventos , conectada con una base de datos, y cuenta con un 
+                    crud completo con 8 entidades funcionales al 100%
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="Habilidades-">
+        <h2>Habilidades</h2>
+        
+        <div>
+            <l>Me apasiona el mundo de la tecnología y poseo un conjunto sólido de habilidades que
+                 incluyen el dominio de lenguajes como Java, HTML, CSS y JavaScript. Mi experiencia 
+                 abarca desde el diseño y desarrollo web hasta la gestión eficiente de bases de datos 
+                 relacionales con MySQL. </l>
+        </div>
+    </section>
+
+    <section id="Multimedia-">
+        <h2> Sonido Relajante </h2>
+        <audio controls>
+            <source src="../resources/audio/toyotasupra-sonido.mp3" type="audio/mp3">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio><br>
+    
+
+    <section id="Contacto-">
+       
+        <div id="form-main">
+            <div id="form-div">
+              <form class="form" id="form1">
+                
+                <p class="name">
+                  <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                </p>
+                
+                <p class="email">
+                  <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                </p>
+                
+                <p class="text">
+                  <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                </p>
+                
+                
+                <div class="submit">
+                  <input type="submit" value="SEND" id="button-blue"/>
+                  <div class="ease"></div>
+                </div>
+              </form>
+            </div>
+    </section>
+    
+
+
+   
+
+  
+</main>
+
    <script src="../Scripts/LogicaPortafolio.js"></script>
     
 </body>
