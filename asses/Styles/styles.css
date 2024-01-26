@@ -22,8 +22,9 @@ nav {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #333;
+    background-color: transparent;
     padding: 10px;
+
 }
 
 nav ul {
@@ -172,10 +173,12 @@ h4,h2{
 
 }
 
-.audio-section {
+.section-audio
+{ text-align: center;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
+    color: white;
 }
 

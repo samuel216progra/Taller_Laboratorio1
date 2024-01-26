@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asses/styles.css">
+    <link rel="stylesheet" href="../Styles/styles.css">
     <title>Laboratorio1</title>
 </head>
 <body>
@@ -14,15 +14,15 @@
     <div class="menu-btn" onclick="toggleMenu()">☰</div>
     <nav id="myNav">
         <ul>
-            <li><a href="#">Pagina1</a></li>
-            <li><a href="#">Pagina2</a></li>
-            <li><a href="#">Pagina3</a></li>
+            <li><a href="../Indexs/index.html">Toyota Supra</a></li>
+            <li><a href="../Indexs/Portafolio.html">Portafolio</a></li>
+            <li><a href="../Indexs/Portafolio.html">Kinal</a></li>
         </ul>
     </nav>
 
     <div class="card" onclick="flipCard()">
         <div class="front">
-            <img src="img/pexels-deane-bayas-13627442.jpg" alt="Imagen Frontal">
+            <img src="../img/pexels-deane-bayas-13627442.jpg" alt="Imagen Frontal">
             <h2>Supra MK4</h2>
             <p>El Toyota Supra MK4, una obra maestra sobre ruedas que despierta la pasión automotriz con 
                 su elegancia y poder. Este icono del rendimiento japonés es mucho más que metal y velocidad;
@@ -37,18 +37,28 @@
                  brindándome la oportunidad de personalizarlo según mis preferencias de rendimiento.</p>
         </div>
     </div>
+
+    <div class="section-audio">
+        <h2>¿ Como Suena ?</h2>
+        <audio controls>
+            <source src="../resources/audio/toyotasupra-sonido.mp3" type="audio/mp3">
+            Tu navegador no soporta la etiqueta de audio.
+        </audio><br>
+        <l>** alert ** audio altamente adictivo ** alert **</l>
+    </div>
+
     <div class="image-container">
         <div class="expandable-image">
-            <img src="img/pexels-deane-bayas-13627442.jpg" alt="Imagen 1">
+            <img src="../img/pexels-deane-bayas-13627442.jpg" alt="Imagen 1">
         </div>
         <div class="expandable-image">
-            <img src="img/pexels-jonathan-cooper-9762341 (1).jpg" alt="Imagen 3">
+            <img src="../img/pexels-jonathan-cooper-9762341 (1).jpg" alt="Imagen 3">
         </div>
         <div class="expandable-image">
-            <img src="img/pexels-photos-by-kriz-17990506.jpg" alt="Imagen 4">
+            <img src="../img/pexels-photos-by-kriz-17990506.jpg" alt="Imagen 4">
         </div>
         <div class="expandable-image">
-            <img src="img/pexels-garvin-st-villier-3874330.jpg" alt="Imagen 2">
+            <img src="../img/pexels-garvin-st-villier-3874330.jpg" alt="Imagen 2">
         </div>
         
     </div>
@@ -62,7 +72,7 @@
         <p>   Motor: 3.0 litros, 2JZ-GTE (Twin-Turbo).
             Potencia: Inicialmente 276 hp (limitada electrónicamente), pero con un gran potencial para modificaciones.
             Transmisión: Manual de 6 velocidades o automática de 4 velocidades.</p>
-            <img src="img/SupraModelos.jpg" alt="Imagen 4">
+            <img src="../img/SupraModelos.jpg" alt="Imagen 4">
        
     </div>
 
@@ -74,7 +84,7 @@
             <h4>Manejo</h4>
         <p>     Suspensión ajustada para un manejo deportivo y estabilidad.
             Frenos potentes para un rendimiento de frenado sólido. </p>
-            <img src="img/SupraRendimiento (1).jpg" alt="Imagen 4">
+            <img src="../img/SupraRendimiento (1).jpg" alt="Imagen 4">
        
     </div>
 
@@ -86,14 +96,14 @@
         <p>     Kits de carrocería personalizados para cambiar el aspecto exterior.
             Mejoras en el interior, como volantes deportivos y asientos de competición. </p>
        
-            <img src="img/Modificaciones2.jpg" alt="Imagen 4">
+            <img src="../img/Modificaciones2.jpg" alt="Imagen 4">
     </div>
 
+  
 
    
-    
   
-    <script src="./asses/Logica.js"></script>
+    <script src="../Scripts/Logica.js"></script>
     <script>
         function toggleMenu() {
             var nav = document.getElementById("myNav");
