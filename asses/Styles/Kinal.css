@@ -1,6 +1,7 @@
 body {
     margin: 0;
     /* overflow: hidden; */ /* Comenta o elimina esta línea para mostrar el contenido que se desborda */
+    background-color: #118cb0;
 }
 
 .menu-bar {
@@ -51,6 +52,17 @@ body {
     }
 }
 
+.titulo-grande {
+    position: relative;
+    top: 40%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+   
+}
+
 .contenido {
     text-align: center;
     padding: 50px 0;
@@ -59,27 +71,27 @@ body {
 .tarjetas {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .tarjeta {
     flex: 1;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:  #1f6dc6;
+    padding: 90px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(255, 124, 2, 0.1);
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
 
 .tarjeta:hover,
 .tarjeta.active {
-    background-color: #3498db; /* Cambia a tu color deseado al hacer clic o al pasar el ratón */
-    color: #fff; /* Cambia a tu color de texto deseado */
+    background-color: #80bbff; 
+    color: #fff; 
 }
 
 .login-btn {
-    background-color: #3498db;
+    background-color: #1e00b5;
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -90,10 +102,10 @@ body {
 }
 
 .login-btn:hover {
-    background-color: #2980b9;
+    background-color: #ffa600;
 }
 #miBoton {
-    background-color: #3498db;
+    background-color: #ffa600;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -105,10 +117,48 @@ body {
 
 /* Estilo al pasar el ratón sobre el botón */
 #miBoton:hover {
-    background-color: #2980b9;
+    background-color: #ffa600;
 }
 
 /* Estilo al hacer clic en el botón */
 #miBoton:active {
-    background-color: #216a94;
+    background-color: #ffa600;
+}
+
+.lk {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: #90a3e4;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.lk :hover {
+    background-color: #90a3e4;
+}
+
+.contenido {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('../img/Fazul.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    background-color: #118cb0;
 }
